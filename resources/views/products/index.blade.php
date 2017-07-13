@@ -22,7 +22,8 @@
       <div class="container">
         <div class="row  flex-items-xs-between flex-items-xs-middle">
             <div class="col-xs-3 ">
-              <h1>CelularessPer</h1>
+
+              <img src="CelularesPeru/imagenes/logo.png" height="55px" alt="calidad">
             </div>
              <div class="col-xs-3 text-xs-right">
               <button class="navbar-toggler  hidden-sm-up" data-toggle="collapse" data-target="#navMenu">&#9776;</button>
@@ -58,6 +59,7 @@
 	
 	<div class="container">
 		<div class="big-padding text-center blue-grey white-text"> </div>
+		<br><br><br>
 		<h1 class="ver">Lista de Celulares</h1>
 		<table class="table table-bordered">
 			<thead>

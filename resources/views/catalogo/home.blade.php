@@ -129,7 +129,7 @@
       <div class="modal-body row">
 
               <div class="col-md-4">
-               <img  src="{{url("/products/images/$product->id.$product->extension")}}" class="zoom img-responsive"> 
+               <img  class ="zoom img-responsive" src="http://localhost/TallerSw_03072017/nexus_andres/public/products/images/6."> 
               </div>
               <div style="border:0px solid #BDBDBD" class="col-md-6 text-justify texto_boton">
 			  <h3 class="text-danger">@{{Titulo}}</h3>

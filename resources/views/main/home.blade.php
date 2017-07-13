@@ -78,7 +78,7 @@ $(document).ready(function(){
         
       </div>
       <div class="modal-body">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/70IJoq_k7mc?autoplay=1" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/pQqH-GkkfWg?autoplay=1" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-info" data-dismiss="modal">CERRAR</button>

@@ -74,7 +74,7 @@
                                  <a class="login hidden-xs-down text-uppercase font-weigth-bold" href="{{ url('/logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">&#62;
-                                            Logout
+                                            Salir
                                 </a>
 
                                 <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
@@ -227,14 +227,14 @@
         <li><a href="#"><i class="fa fa-youtube-square fa-2x"></i></a></li>
       </ul>
       <h3>Escribenos: </h3>
-      <i class="fa fa-at" ></i> <a href="#">celulareperu@gmail.com</a>
+      <i class="fa fa-at" ></i> <a href="#">peruvianexus@gmail.com</a>
     </div>
 
 
     <div class="col-md-4">
       <div class="author-info">
         <br><br><br><p>Copyright © 2005-2017<br>
-           CelularesPerú<br>
+           PeruvianNexus<br>
            Todos los derechos reservados. </p>
       </div>
     </div>

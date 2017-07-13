@@ -12,6 +12,8 @@ use App\PayPal;
 
 use App\Order;
 
+use Illuminate\Support\Facades\Auth;
+
 
 class ShoppingCartsController extends Controller
 {
@@ -31,13 +33,18 @@ class ShoppingCartsController extends Controller
 
 
     public function checkout(Request $request){
-        
+
+       if (Auth::check()){ 
         $shopping_cart = $request->shopping_cart;
         $paypal = new PayPal($shopping_cart);
 
         $payment=$paypal->generate();
 
         return redirect($payment->getApprovalLink());
+       }
+        else{
+        return view ("auth.login");
+        }
 
     }
 

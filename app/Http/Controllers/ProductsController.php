@@ -75,7 +75,6 @@ class ProductsController extends Controller
         if ($product->save()) {
             if ($hasFile) {
                 $request->cover->storeAs('images',"$product->id.$extension");
-
             }
 
            return redirect("/products");
